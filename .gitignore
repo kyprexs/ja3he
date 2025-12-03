@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.vercel/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Music file (if copyrighted)
+# Uncomment the line below if you don't want to commit the music file
+# music.mp3

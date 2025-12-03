@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ja3he - Minimalist portfolio with sleek dark design">
+    <meta name="author" content="Ja3he">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ja3he">
+    <meta property="og:description" content="Minimalist portfolio with sleek dark design">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Ja3he">
+    <meta property="twitter:description" content="Minimalist portfolio with sleek dark design">
+
+    <title>Ja3he</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-overlay"></div>
+
+    <!-- Cursor effect -->
+    <div class="cursor-glow"></div>
+
+    <!-- Entrance Screen -->
+    <div class="entrance-screen" id="entranceScreen">
+        <div class="entrance-content">
+            <div class="entrance-logo">
+                <h1 class="entrance-name">Ja3he</h1>
+                <div class="entrance-line"></div>
+            </div>
+            <div class="entrance-prompt">
+                <p class="click-text">Click to Enter</p>
+                <div class="click-indicator">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="entrance-particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="container" id="mainContent">
+        <div class="content">
+            <!-- Header -->
+            <div class="header fade-in">
+                <h1 class="name">Ja3he</h1>
+                <div class="tagline">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+            </div>
+
+            <!-- About Info -->
+            <div class="about-section fade-in-delay-1">
+                <div class="about-grid">
+                    <div class="about-card tilt-card" data-tilt>
+                        <p class="card-text">Age / 19</p>
+                    </div>
+
+                    <div class="about-card tilt-card" data-tilt>
+                        <p class="card-text">Location / California</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social links -->
+            <div class="socials fade-in-delay-2">
+                <a href="https://www.instagram.com/ja3he" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                    <span>Instagram</span>
+                </a>
+            </div>
+
+            <!-- Music player -->
+            <div class="music-player fade-in-delay-3">
+                <button class="music-btn" id="musicBtn">
+                    <svg class="play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    <svg class="pause-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="6" y="4" width="4" height="16"></rect>
+                        <rect x="14" y="4" width="4" height="16"></rect>
+                    </svg>
+                    <span class="music-label">bum crush v2 by yazida</span>
+                </button>
+                <audio id="bgMusic" loop>
+                    <source src="music.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer fade-in-delay-4">
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
