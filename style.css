@@ -46,18 +46,15 @@ body::before {
     50% { opacity: 0.5; }
 }
 
-/* Background Image */
+/* Background Video */
 .bg-gradient {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('cyber2.gif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    object-fit: cover;
+    object-position: center;
     z-index: 0;
 }
 
